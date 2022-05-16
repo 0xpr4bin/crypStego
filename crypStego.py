@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 from argparse import *
 from stegano import lsb
 from PIL import Image
@@ -99,7 +102,7 @@ def rot13_encode(text):
 			cipher_text=dic2[num]
 			ci+=cipher_text
 		cipher=ci.lower()
-		print(cipher)	
+		print(f'{text} : {cipher}')	
 		
 
 def rot13_decode(txt):
