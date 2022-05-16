@@ -6,3 +6,8 @@
 > `sudo apt-get install python3`
 > 
 > `pip install pyfiglet`
+> 
+> `chmod +x crypStego.py`
+> 
+> `./crypStego.py`
+
